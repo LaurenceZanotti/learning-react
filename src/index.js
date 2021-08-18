@@ -1,17 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+// Font: https://scrimba.com/learn/learnreact/
+
+// Objective: Fill in the boilerplate React code required to render an
+// unordered list (<ul>) to the page. The list should contain 3 list items
+// (<li>) with anything in them you want.
+
+// HINTS:
+// import the libraries you need first
+// use one of the libraries to render some JSX to the page
+
+import React from 'react'
+import ReactDOM from 'react-dom'
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  <ul>
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li>
+  </ul>,
+  document.querySelector('#root')
+)
