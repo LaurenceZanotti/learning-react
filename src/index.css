@@ -12,14 +12,17 @@ code {
     monospace;
 }
 
-.info-container {
-  border: 1px solid #ddd;
-  border-radius: 15px;
-  padding: 1em;
-  margin: 2em auto;
+div#root {
   width: 50%;
+  margin: auto
 }
 
-h1 {
+.text-center {
   text-align: center;
+}
+
+@media (max-width: 900px) {
+  div#root {
+    width: 100%;
+  }
 }

@@ -10,6 +10,7 @@
 
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MyInfo from './components/MyInfo'
+import './index.css'
+import App from './App.js'
 
-ReactDOM.render(<MyInfo />, document.querySelector('#root'))
+ReactDOM.render(<App />, document.querySelector('#root'))
